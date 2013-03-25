@@ -1,6 +1,8 @@
 ## My Changes:
 Added a .extra file that has some of my personal aliases.  Changed the .bash_prompt file around a bit (PC Name no longer displayed file paths in orange and have more space to get bigger). Tweaked LS colors and display colors in general for text in the terminal (Assumes a dark background). Removed aliases that seem excessive to me.  Added path to npm binaries in bash_profile.  Switched default editor from vim to subl.
 
+Composer install would throw random errors when install dbal.  The fix was to remove the custum .gitattributes file and the refrence tot he custom file fromt he .gitconfig. 
+
 
 # Mathias’s dotfiles
 
