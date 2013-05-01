@@ -78,7 +78,7 @@
 	rebase = ture
 
 [branch]
-	autosetuprebase = true
+	autosetuprebase = always
 
 [diff]
 	algorithm = patience
