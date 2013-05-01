@@ -75,10 +75,14 @@
 	default = simple
 
 [pull]
-	rebase = ture
+	rebase = true
 
 [branch]
 	autosetuprebase = always
 
 [diff]
 	algorithm = patience
+
+[user]
+	name = Marcus Fulbright
+	email = fulbright.marcus@gmail.com
