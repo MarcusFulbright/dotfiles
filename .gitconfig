@@ -73,3 +73,12 @@
 
 [push]
 	default = simple
+
+[pull]
+	rebase = ture
+
+[branch]
+	autosetuprebase = true
+
+[diff]
+	algorithm = patience
