@@ -24,7 +24,7 @@
 	# Reset previous commit, but keep all the associated changes
     goddammit = !git reset --soft HEAD^
     #checkout shortcut
-    c = git checkout
+    c = checkout
 
 [apply]
 	# Detect whitespace errors when applying a patch
