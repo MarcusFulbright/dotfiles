@@ -23,6 +23,8 @@
 	reb = "!r() { git rebase -i HEAD~$1; }; r"
 	# Reset previous commit, but keep all the associated changes
     goddammit = !git reset --soft HEAD^
+    #checkout shortcut
+    gc = git checkout
 
 [apply]
 	# Detect whitespace errors when applying a patch
@@ -87,4 +89,4 @@
 
 [user]
 	name = Marcus Fulbright
-	email = fulbright.marcus@gmail.com
+	email = marcus.fulbright@iostudio.com
