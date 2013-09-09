@@ -1,5 +1,6 @@
 # Add `~/bin` to the `$PATH`
 export PATH="/usr/local/bin:$HOME/bin:$PATH"
+export NODE_PATH="/usr/local/lib/node"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
