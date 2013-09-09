@@ -35,7 +35,7 @@ complete -W "NSGlobalDomain" defaults
 # If possible, add tab completion for many more commands
 [ -f /etc/bash_completion ] && source /etc/bash_completion
 
-PATH=$PATH:/usr/local/share/npm/bin/ # Add NPM binaries
+PATH=$PATH:/usr/local/share/npm/bin # Add NPM binaries
 
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
