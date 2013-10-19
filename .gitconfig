@@ -25,6 +25,7 @@
     goddammit = !git reset --soft HEAD^
     #checkout shortcut
     c = checkout
+    delete = git rm $(git ls-files --deleted)
 
 [apply]
 	# Detect whitespace errors when applying a patch
