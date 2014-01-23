@@ -25,7 +25,7 @@
     goddammit = !git reset --soft HEAD^
     #checkout shortcut
     c = checkout
-    delete = git rm $(git ls-files --deleted)
+    delete = rm $(git ls-files --deleted)
 
 [apply]
 	# Detect whitespace errors when applying a patch
@@ -35,7 +35,9 @@
 	# Use custom `.gitignore` and `.gitattributes`
 	excludesfile = ~/.gitignore
 	# Treat spaces before tabs, lines that are indented with 8 or more spaces, and all kinds of trailing whitespace as an error
-	whitespace = space-before-tab,indent-with-non-tab,trailing-space
+	whitespace = space-before-tab,trailing-space
+	# Set sublime as editor
+	editor = subl -w
 
 [color]
 	# Use colors in Git commands that are capable of colored output when outputting to the terminal
