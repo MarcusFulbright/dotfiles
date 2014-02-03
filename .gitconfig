@@ -38,6 +38,7 @@
 	whitespace = space-before-tab,trailing-space
 	# Set sublime as editor
 	editor = subl -w
+	# set auto correct
 
 [color]
 	# Use colors in Git commands that are capable of colored output when outputting to the terminal
@@ -93,3 +94,6 @@
 [user]
 	name = Marcus Fulbright
 	email = marcus.fulbright@iostudio.com
+
+[help]
+	autocorrect = 15
