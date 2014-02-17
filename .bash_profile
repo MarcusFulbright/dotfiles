@@ -38,5 +38,9 @@ complete -W "NSGlobalDomain" defaults
 
 PATH=$PATH:/usr/local/share/npm/bin # Add NPM binaries
 
+# add RVM install
+source ~/.profile
+
+
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
